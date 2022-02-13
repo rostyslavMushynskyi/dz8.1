@@ -1,0 +1,276 @@
+.line{
+    background: #F38181;
+    width: 60px;
+    height: 4px;  
+    display: inline-block; 
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-link{
+    text-transform: uppercase;
+}
+
+.subtitle{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.team-text{
+    text-align: center;
+    color: #B6B6B6;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 45px;
+    margin-bottom: 27px;
+}
+
+.team-list{
+    display: flex;
+    justify-content: center;
+}
+
+.team-item{
+    list-style-type: none;
+    margin-right:30px;
+}
+
+.team-img{
+    width: 380px;
+    height: 470px;
+}
+
+.team-item:last-child{
+    margin-right: 0;
+}
+
+.team-name{
+    text-align: center;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.team-position{
+    text-align: center;
+    font-family: Roboto;
+    font-style: italic;
+    color: #B6B6B6;
+    margin-top: 11px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.menu-item{
+    list-style-type: none;
+    margin-right: 55px;
+}
+
+.menu-link{
+    text-decoration:none ;
+    color: #95E1D3;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+.menu-item:last-child{
+    margin-right:0;
+}
+
+.header{
+    display: flex;
+    align-content: center;
+    justify-content:space-between ;
+}
+
+.redB{
+    color: #F38181;
+    border-bottom: #F38181 solid 3px;
+    padding-bottom: 10px;
+}
+
+
+.logo{
+    margin-left: 50px;
+}
+
+.menu{
+    display: flex;
+}
+
+
+
+.list{
+    display: flex;
+    width: 33%;
+    height: 102%;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.services-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+
+.png{
+    height: 50px;
+    width: 50px;
+}
+
+.title-content{
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #333333;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+
+.text-content{
+    font-family: Roboto;
+    font-size: 15px;
+    color: #B6B6B6;
+    line-height: 22px;
+}
+
+.logo-services{
+    margin-right: 18px;
+}
+
+p{
+    margin: 0;
+}
+
+.footer{
+    border-top: 1px solid #B6B6B6;
+    margin-top: 80px;
+}
+
+.creator{
+    font-family: Montserrat;
+    font-size: 14px;
+    margin-top: 22px;
+}
+
+.URL{
+    text-decoration: none;
+    color: brown;
+}
+
+.search{
+    border-right: 0px solid green;
+    border-top: 1px solid #B6B6B6;
+    border-left: 1px solid #B6B6B6;
+    border-bottom: 1px solid #B6B6B6;
+    color: #B6B6B6;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 14px;
+    padding:12px 0px 11px 10px ;
+    margin: 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-content{
+    text-align: center;
+    margin-bottom: 65px;
+    margin-top: 68px;
+}
+
+::placeholder{
+    color: #B6B6B6;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.register{
+    margin-top: 10px;
+}
+
+.button{
+    text-transform: uppercase;
+    background: #95E1D3;
+    width: 150px;
+    height: 40px;
+    border:0;
+    margin: 0;
+}
+
+.bs{
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.gradient{
+    width: 380px;
+    height: 470px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+ul , li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;    
+}
+
+.socials-list{
+    display: flex;
+}
+
+.socials-item{
+    margin-right: 1px;
+}
+
+.socials-link{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 57px;
+    height: 57px;
+    background: #FCE38A;
+
+    transition: background .5s;
+}
+
+.socials-link:hover{
+    background: #95E1D3;
+}
+
+.card{
+    position: relative;    
+}
+
+.card:hover .gradient{
+    opacity: 1;
+}
